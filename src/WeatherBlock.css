@@ -1,0 +1,19 @@
+.weather-block img {
+    width: clamp(4.4rem, 60%, 9rem);
+}
+
+.weather-block h3 {
+    font-size: clamp(1rem, 4.6vw, 1.5rem);
+    font-weight: bold;
+
+    position: relative;
+    bottom: 0.7rem;
+}
+
+.weather-block p {
+    font-size: clamp(0.75rem, 3vw, 1rem);
+    font-weight: 100;
+
+    position: relative;
+    bottom: 0.7rem;
+}

@@ -1,0 +1,6 @@
+.time-block h3 {
+    font-size: 3rem;
+    font-size: 6rem;
+    font-size: clamp(3rem, 14.3vw, 6rem);
+    font-weight: bold;
+}
