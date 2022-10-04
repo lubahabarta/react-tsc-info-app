@@ -10,6 +10,7 @@ const TimeBlock = () => {
     setInterval(() => {
         setAmpm(moment().format('a'));
         setHours(state => state = (ampm === 'pm') ? (+moment().format('hh') + 12) : (+moment().format('hh')));
+        setHours(state => state = (state === 24) ? 0 : state);
         setMinutes(state => state = +moment().format('mm'));
     }, 1000);
 
